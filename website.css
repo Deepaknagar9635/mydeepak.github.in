@@ -69,7 +69,7 @@ nav ul li a:hover{
 }
 /* banner-section */
 #banner-section{
-    background: url("/websiteimage/hero-carousel/2.jpg");
+    background: url("websiteimage/hero-carousel/2.jpg");
 }
 #banner-section h1{
     color: #0c2e8a;
