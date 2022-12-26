@@ -1,0 +1,372 @@
+/* custome css */
+/* header top css code */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+}
+:root{
+    --iconeClr : #50d8af
+}
+.section_title{
+    font-size: 32px;
+    color: #0c2e8a;
+    font-weight: 700;
+}
+hr{
+    width: 63px;
+    color: #50d8af;
+    border: 1px solid;
+}
+#header-top{
+    border-bottom: 1px solid #eee;
+}
+.icon-color {
+    color: var(--iconeClr);
+}
+.social-icons i{
+    padding: 3px;
+    border-right: 1px solid #eee;
+    line-height: 6px;
+}
+/* navbar */
+.navbar{
+    color: white;
+}
+.title{
+    color: #0c2e8a;
+    font-size: 50px !important;
+    font-weight: 600;
+    margin-left: -18px;
+}
+.title span{
+    color: #50d8af;
+}
+.collapse{
+    margin-right: -35px;
+}
+nav ul li {
+    padding: 10px;
+}
+nav ul li a{
+    color: #444;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    transition: all 0.1s linear;
+}
+nav ul li a:hover{
+    color: #50d8af;
+}
+.navbar-toggler{
+    background-color: #0c2e8a;
+}
+.myicon{
+    color: #50d8af;
+}
+/* banner-section */
+#banner-section{
+    background: url("/websiteimage/hero-carousel/2.jpg");
+}
+#banner-section h1{
+    color: #0c2e8a;
+    font-size: 64px;
+    font-weight: 700;
+    padding: 80px 273px;
+    text-align: center;
+
+}
+#banner-section h1 span{
+    text-decoration: underline;
+    color: #50d8af;
+}
+.banner-buttons a{
+    color: #fff;
+    padding: 10px 32px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#banner-start-btn{
+    background-color: #0c2e8a;
+    border: 2px solid #0c2e8a;
+    transition: all 0.2s linear;
+    
+}
+#banner-start-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#banner-project-btn{
+    background-color: #50d8af;
+    margin-left: 10px;
+    border: 2px solid #50d8af;
+    transition: all 0.2s linear;
+}
+#banner-project-btn:hover{
+    background-color: white;
+    color: black;
+}
+/* aboutus-section */
+#about-us h2{
+    color: #0c2e8a;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+}
+#about-us h3{
+    color: #555;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: italic;
+    padding: 9px 0;
+}
+#about-us ul li {
+    list-style-type: none;
+    padding-top: 16px;
+}
+#about-us ul li i{
+    color: #50d8af;
+    font-size: 20px;
+    padding-right: 5px;
+}
+/* service-section */
+#services h1{
+    padding-top: 64px;
+    padding-bottom: 10px;
+}
+.service-box{
+    box-shadow: 10px 10px 15px rgb(73 78 92 / 10%);
+    background: #fff;
+    margin: 10px;
+}
+.service-box:hover{
+    bottom: 15px;
+}
+.service-box i {
+    color: #50d8af;
+    font-size: 64px;
+}
+.service-data{
+    padding: 25px;
+}
+/* client-section */
+#CLIENTS h1{
+    padding-top: 64px;
+    padding-bottom: 10px;
+}
+/* portfolio-section */
+#OUR-PORTFOLIO h1{
+    padding-top: 64px;
+    padding-bottom: 10px;
+}
+.portfolio-box{ 
+    overflow: hidden;
+    position: relative;
+}
+.portfolio-box img {
+    position: relative;
+    bottom: 0;
+    transition: all 0.1s linear;
+}
+.portfolio-box:hover img{
+    bottom: 15px;
+}
+.portfolio-inner-box{
+    background: #50d8af;
+    height: 80px;
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    transition: all 0.3s linear;
+}
+.portfolio-box:hover .portfolio-inner-box{
+    bottom: 0px;
+}
+.portfolio-inner-box h3{
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.portfolio-inner-box h6{
+    color: white;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+/* testimonial-section */
+.testimonial-box .ts-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;    
+}
+#testimonials h1{
+    padding-top: 64px;
+    padding-bottom: 10px;
+}
+.testimonial-box{
+    box-shadow: 10px 10px 15px rgb(73 78 92 / 10%);
+    margin: 30px 0px;
+}
+.tes-p{
+    padding: 15px;
+} 
+.testimonial-box h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(17, 17, 17);
+    text-align: center;
+}
+.testimonial-box h6{
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+    text-align: center;
+    padding-bottom: 65px;
+}
+ /* call to action section */
+.call-to-action{
+    background-color: #0c2e8a;
+    background-size: cover;
+    padding: 40px 0;
+    margin-top: 45px;
+}
+.call-to-action .call-title{
+    color: white;
+}
+.call-to-action .call-text{
+    color: white;
+}
+.call-buttons a{
+    color: #fff;
+    padding: 8px 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 28px;
+}
+#call-btn{
+    border: 2px solid white;
+    transition: all 0.3s linear;    
+}
+#call-btn:hover{
+    background-color: #50d8af;
+}
+/* our team section */
+.our-team h1{
+    padding-top: 64px;
+    padding-bottom: 10px;
+}
+.team-inner-box{
+    background-color: #50d8af;
+    color: #fff;
+    padding: 15px;
+    border-radius: 0 0 3px 3px;
+    text-align: center;
+}
+.team-inner-box h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.team-inner-box h6{
+    font-size: 13px;
+}
+.team-inner-box-img{
+    color: white;
+}
+/* cantact us section */
+#cantact-us h1{
+    padding-top: 64px;
+    padding-bottom: 10px;
+}
+#cantact-us .cantact-box{
+    text-align: center;
+}
+#cantact-us .cantact-box i {
+    font-size: 48px;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #50d8af;
+}
+#cantact-us .cantact-box h3{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #999;
+}
+#cantact-us .cantact-box address{
+    margin-bottom: 50px;
+}
+/* map section */
+.maps .maps-img{
+    width: 100%;
+    height: 450px;
+    margin-bottom: 30px;
+}
+/* cantact form section */
+.sand-buttons a{
+    color: #fff;
+    padding: 10px 32px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#sand-btn{
+    background-color: #50d8af;
+    border-radius: 10px;
+    transition: all 0.2s linear;  
+}
+/* footer section */
+#footer{
+    background: #f2f5f8;
+    padding: 0 0 30px 0;
+    font-size: 14px
+}
+#footer .copyright{
+    text-align: center;
+    padding-top: 30px;
+}
+#footer .credit {
+    text-align: center;
+    font-size: 13px;
+    color: #555;
+}
+#footer .credit a {
+    color: #0c2e8a;
+}
+/* media section */
+@media (max-width: 940px){    
+    .top-right{
+        margin-left: 0 !important;
+        width: 100%;
+        text-align: center;
+    }
+    #banner-section h1{
+        padding: 0;
+    }
+    .banner-buttons{
+        flex-direction: column;
+        text-align: center;
+    }
+    /* .navbar-nav .nav-link{
+        text-align: center;
+    } */
+    .clients-img{
+        text-align: center;
+    }
+    .name-box{
+        margin-bottom: 18px;
+    }
+    .service-box{
+        flex-direction: column;
+        text-align: center;
+    }
+    .service-box i{
+        justify-content: center;
+    }
+}
